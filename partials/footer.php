@@ -12,13 +12,7 @@
                         <!-- list -->
                         <ul class="flex items-center gap-6">
                                 <li><a href="<?php echo $webRoot; ?>index.php" class="text-gray-700 hover:text-green-600">Home</a></li>
-                                <li class="relative dropdown">
-                                    <a class="dropdown-toggle text-gray-700 hover:text-green-600" href="#!" data-bs-toggle="dropdown">Trip Package</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#featured-plans">Solo Trip Plans</a></li>
-                                        <li><a class="dropdown-item" href="#popular-group-plans">Group Plans</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="#testimoni" class="text-gray-700 hover:text-green-600">Trips</a></li>
                                 <li><a href="#testimoni" class="text-gray-700 hover:text-green-600">Testimoni</a></li>
                                 <li><a href="https://wa.me/6285328544258" target="_blank" class="text-gray-700 hover:text-green-600">Contact</a></li>
                             </ul>
@@ -70,73 +64,3 @@
                 </div>
             </div>
         </div>
-        <div class="border-t py-4 border-gray-300">
-            <div class="flex flex-col md:flex-row items-center gap-3">
-                <div class="w-full">
-                    <span class="text-sm text-gray-500">
-                        ©
-                        <span id="copyright">
-                            <script>
-                                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()));
-                            </script>
-                        </span>
-                        FreshCart TailwindCSS eCommerce HTML Template. Powered by
-                        <a href="https://codescandy.com/" target="_blank" class="text-green-600">Codescandy</a>
-                        <span class="text-nowrap">~ Distributed by
-                            <a href="https://ThemeWagon.com/" target="_blank"
-                                class="text-green-600">ThemeWagon</a></span>
-                        .
-                    </span>
-                </div>
-                <div class="md:w-1/2 flex md:justify-end items-center">
-                    <div class="flex flex-row gap-5 items-center">
-                        <div class="text-gray-500">Follow us on</div>
-                        <ul class="flex items-center justify-end text-sm gap-1">
-                            <li>
-                                <a href="#!"
-                                    class="inline-flex justify-center items-center align-middle text-center select-none border font-normal whitespace-no-wrap rounded leading-normal no-underline h-8 w-8 border-gray-300 hover:border-green-600 hover:text-green-600 transition ease-in-out">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-brand-facebook" width="16" height="16"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path
-                                            d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!"
-                                    class="inline-flex justify-center items-center align-middle text-center select-none border font-normal whitespace-no-wrap rounded leading-normal no-underline h-8 w-8 border-gray-300 hover:border-green-600 hover:text-green-600 transition ease-in-out">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x"
-                                        width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5"
-                                        stroke="currentColor" fill="none" stroke-linecap="round"
-                                        stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#!"
-                                    class="inline-flex justify-center items-center align-middle text-center select-none border font-normal whitespace-no-wrap rounded leading-normal no-underline h-8 w-8 border-gray-300 hover:border-green-600 hover:text-green-600 transition ease-in-out">
-                                    <svg xmlns="http://www.w3.org/2000/svg"
-                                        class="icon icon-tabler icon-tabler-brand-instagram" width="16" height="16"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                                        stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path
-                                            d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                                        <path d="M16.5 7.5l0 .01" />
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
