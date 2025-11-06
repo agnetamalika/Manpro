@@ -10,31 +10,18 @@
                 <div class="flex flex-wrap">
                     <div class="w-1/2">
                         <!-- list -->
-                        <ul class="flex flex-col gap-2">
-                            <li><a href="#!" class="inline-block hover:text-green-600">Vegetables & Fruits</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Breakfast & instant food</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Bakery & Biscuits</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Atta, rice & dal</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Sauces & spreads</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Organic & gourmet</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Baby care</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Cleaning essentials</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Personal care</a></li>
-                        </ul>
-                    </div>
-                    <div class="w-1/2">
-                        <!-- list -->
-                        <ul class="flex flex-col gap-2">
-                            <li><a href="#!" class="inline-block hover:text-green-600">Dairy, bread & eggs</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Cold drinks & juices</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Tea, coffee & drinks</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Masala, oil & more</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Chicken, meat & fish</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Paan corner</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Pharma & wellness</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Home & office</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Pet care</a></li>
-                        </ul>
+                        <ul class="flex items-center gap-6">
+                                <li><a href="<?php echo $webRoot; ?>index.php" class="text-gray-700 hover:text-green-600">Home</a></li>
+                                <li class="relative dropdown">
+                                    <a class="dropdown-toggle text-gray-700 hover:text-green-600" href="#!" data-bs-toggle="dropdown">Trip Package</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#featured-plans">Solo Trip Plans</a></li>
+                                        <li><a class="dropdown-item" href="#popular-group-plans">Group Plans</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#testimoni" class="text-gray-700 hover:text-green-600">Testimoni</a></li>
+                                <li><a href="https://wa.me/6285328544258" target="_blank" class="text-gray-700 hover:text-green-600">Contact</a></li>
+                            </ul>
                     </div>
                 </div>
             </div>
@@ -49,39 +36,6 @@
                             <li><a href="#!" class="inline-block">Blog</a></li>
                             <li><a href="#!" class="inline-block hover:text-green-600">Help Center</a></li>
                             <li><a href="#!" class="inline-block hover:text-green-600">Our Value</a></li>
-                        </ul>
-                    </div>
-                    <div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4 mb-6">
-                        <h6>For Consumers</h6>
-                        <ul class="flex flex-col gap-2">
-                            <!-- list -->
-                            <li><a href="#!" class="inline-block hover:text-green-600">Payments</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Shipping</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Product Returns</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">FAQ</a></li>
-                            <li><a href="#!" class="inline-block">Shop Checkout</a></li>
-                        </ul>
-                    </div>
-                    <div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4">
-                        <h6>Become a Shopper</h6>
-                        <ul class="flex flex-col gap-2">
-                            <!-- list -->
-                            <li><a href="#!" class="inline-block hover:text-green-600">Shopper Opportunities</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Become a Shopper</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Earnings</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Ideas & Guides</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">New Retailers</a></li>
-                        </ul>
-                    </div>
-                    <div class="w-1/2 sm:w-1/2 md:w-1/4 flex flex-col gap-4">
-                        <h6>Freshcart programs</h6>
-                        <ul class="flex flex-col gap-2">
-                            <!-- list -->
-                            <li><a href="#!" class="inline-block hover:text-green-600">Freshcart programs</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Gift Cards</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Promos & Coupons</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Freshcart Ads</a></li>
-                            <li><a href="#!" class="inline-block hover:text-green-600">Careers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -110,21 +64,6 @@
                             </li>
                             <li>
                                 <a href="#!"><img src="<?php echo $webRoot; ?>assets/images/payment/visa.svg" alt="visa" /></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="lg:w-3/5 flex justify-end">
-                    <div class="flex flex-col md:flex-row items-center gap-3 md:gap-6">
-                        <div class="text-gray-900">Get deliveries with FreshCart</div>
-                        <ul class="flex flex-row gap-2">
-                            <li>
-                                <a href="#!"><img src="<?php echo $webRoot; ?>assets/images/appbutton/appstore-btn.svg" alt=""
-                                        style="width: 140px" /></a>
-                            </li>
-                            <li>
-                                <a href="#!"><img src="<?php echo $webRoot; ?>assets/images/appbutton/googleplay-btn.svg" alt=""
-                                        style="width: 140px" /></a>
                             </li>
                         </ul>
                     </div>

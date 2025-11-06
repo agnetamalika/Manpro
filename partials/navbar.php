@@ -24,8 +24,8 @@
                                 <li class="relative dropdown">
                                     <a class="dropdown-toggle text-gray-700 hover:text-green-600" href="#!" data-bs-toggle="dropdown">Trip Package</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#featured-plans">Featured Plans</a></li>
-                                        <li><a class="dropdown-item" href="#popular-group-plans">Popular Group Plans</a></li>
+                                        <li><a class="dropdown-item" href="#featured-plans">Solo Trip Plans</a></li>
+                                        <li><a class="dropdown-item" href="#popular-group-plans">Group Plans</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#testimoni" class="text-gray-700 hover:text-green-600">Testimoni</a></li>
