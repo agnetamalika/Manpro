@@ -10,7 +10,7 @@
                 <div class="flex flex-wrap">
                     <div class="w-1/2">
                         <!-- list -->
-                        <ul class="flex items-center gap-6">
+                        <ul class="flex flex-col gap-2">
                                 <li><a href="<?php echo $webRoot; ?>index.php" class="text-gray-700 hover:text-green-600">Home</a></li>
                                 <li><a href="#testimoni" class="text-gray-700 hover:text-green-600">Trips</a></li>
                                 <li><a href="#testimoni" class="text-gray-700 hover:text-green-600">Testimoni</a></li>
