@@ -76,7 +76,7 @@ $webRoot = '';
         // to keep this change minimal we've copied the modified index content into this file
         ?>
 
-        <section class="lg:my-14 my-8">
+        <section id="trip" class="lg:my-14 my-8">
   <style>
   /* Container section */
   .solo-trip-section {
@@ -641,7 +641,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         autoplayHoverPause: true,
                         controls: true,
                         nav: true,
-                        controlsText: ['◀', '▶'],
+                        controlsText: ['', ''],
                         mouseDrag: true,
                         gutter: 0
                     });
@@ -654,3 +654,4 @@ document.addEventListener('DOMContentLoaded', function () {
 </body>
 
 </html>
+
