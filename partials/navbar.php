@@ -22,7 +22,7 @@
                             <ul class="flex items-center gap-6">
                                 <li><a href="<?php echo $webRoot; ?>index.php" class="text-gray-700 hover:text-green-600">Home</a></li>
                                 <li class="relative dropdown">
-                                    <a class="dropdown-toggle text-gray-700 hover:text-green-600" href="#!" data-bs-toggle="dropdown">Trip Package</a>
+                                    <a class="dropdown-toggle text-gray-700 hover:text-green-600" href="#trip" data-bs-toggle="dropdown">Trip Package</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#featured-plans">Solo Trip Plans</a></li>
                                         <li><a class="dropdown-item" href="#popular-group-plans">Group Plans</a></li>
@@ -80,3 +80,4 @@
         <!-- Note: cart/offcanvas markup removed or simplified for TripPlanner -->
     </div>
 </header>
+
